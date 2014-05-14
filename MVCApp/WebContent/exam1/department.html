@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<title>Insert title here</title>
+</head>
+<body>
+<h1>학과 선택</h1>
+<form method="post"action="../depart.action"><!-- 이 경로는 department.html에서 web.xml을 거쳐 자바를 실행시켜야 하는데 
+												  이 파일의 절대경로가 exam1까지 포함하고 있으므로 exam1폴더를 빠져나가서 실행시켜야 한다. -->
+	학과 선택 : 
+	<select name="depart">
+		<option value="kor">국문학과</option>
+		<option value="eng">영문학과</option>
+		<option value="com">컴퓨터학과</option>
+		<option value="bus">경제학과</option>
+	</select>
+	<br/><br/>
+	<input type="submit" value="확인"/>
+</form>
+</body>
+</html>
