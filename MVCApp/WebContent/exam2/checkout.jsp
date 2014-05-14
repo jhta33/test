@@ -22,7 +22,7 @@ try{
 	if(booklist.size() > 0 || booklist != null){
 %>
 	<%
-	for(int i=0; i< booklist.size();i++){ 
+	for(int i=0; i< booklist.size();i++){
 		BookDto dto = (BookDto)booklist.get(i);
 	%>
 	<tr>
